@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message": "Hello User , welcome to GithUb App!"}
+    return {"message": "Hello User , welcome to GithUb App !"}
