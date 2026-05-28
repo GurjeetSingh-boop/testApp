@@ -6,8 +6,3 @@ app = FastAPI()
 @app.get("/")
 def hello():
     return {"message": "Hello User , welcome to GithUb App!"}
-
-# API to display name entered by user
-@app.get("/name")
-def displayName(name: str):
-    return {"message": f"Hello {name}"}
